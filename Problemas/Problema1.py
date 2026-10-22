@@ -19,7 +19,7 @@ print(tabela_medias)
 
 #Gráfico
 plt.style.use('classic')
-tabela_medias.plot(kind='bar',color=["cyan", "indigo"], edgecolor="green", linewidth=1, figsize=(8, 8))
+tabela_medias.plot(kind='bar',color=["red", "indigo"], edgecolor="green", linewidth=1, figsize=(8, 8))
 plt.title("TNF-a", fontsize = 18)
 plt.ylabel("vertical", fontsize = 14)
 plt.xlabel("horizontal", fontsize = 14)
